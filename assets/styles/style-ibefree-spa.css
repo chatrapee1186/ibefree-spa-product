@@ -1,0 +1,510 @@
+.header-btn-sort-spa {
+    padding: .25rem 1rem;
+    min-width: 90px;
+    height: 40px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--theme-primary-blue);
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color-white);
+}
+
+
+.header-btn-sort-spa .i {
+    margin-right: .25rem;
+}
+
+
+.task-card>.header .location .location-name-spa {
+    font-family: 'Kanit';
+    font-size: 12px;
+    color: #000;
+    text-transform: none;
+}
+
+.task-card>.body .info .owner-spa {
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.task-card>.body .info .refid-spa,
+.task-card>.body .info .duedate-spa {
+    font-size: 12px;
+    color: #000000;
+    font-family: 'Kanit';
+    margin-top: 0.125rem;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+}
+
+.task-card > .body .info .duedate-spa .i {
+margin-right: 0.25rem;
+}
+
+
+.task-card>.body .info .label-wait_score-spa {
+    font-size: 12px;
+color: #000000;
+font-family: 'Kanit';
+line-height: 20px;
+}
+
+.section-info .task-owner .info .unit-spa {
+    font-family: 'Kanit';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.section-info .task-owner .info .owner-spa {
+    display: block;
+    font-family: 'Kanit';
+    font-size: 13px;
+    color: #000;
+    line-height: 18px;
+    font-weight: normal;
+}
+
+.section-info .section-content-title-spa {
+    padding-bottom: 16px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #000;
+}
+
+.section-info .section-content-spa {
+    /* padding-bottom: 0.75rem; */
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #000000;
+}
+
+.btn-next-step .font-spa {
+    color: #2b4a8e;
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.image-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 8px;
+
+}
+
+
+.modal-spa {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.75);;
+    padding-top: 10%;
+}
+
+.modal-content-spa {
+    position: relative;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    /* max-width: 1200px; */
+    border-radius: 8px;
+}
+
+.modal-content-spa .title {
+    padding-top: 14px;
+    padding-bottom: 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.modal-content-spa .text {
+    font-family: 'Mitr';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2B4A8E;
+    width: 100%;
+    text-align: center;
+}
+
+.modal-content-spa .text-modal {
+    font-family: 'Mitr';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2B4A8E;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+}
+
+
+.option-group-slots-spa {
+    display: flex;
+}
+
+.option-group-slots-spa .col {
+    flex-grow: 1;
+}
+
+.option-group-slots-spa input[type='radio'] {
+    display: none;
+}
+
+.option-group-slots-spa input[type='radio']:checked+label {
+    background-color: #ffffff;
+    border-width: 2px;
+    border-color: #2b4a8e;
+}
+
+.option-group-slots-spa input[type='radio']:checked+label::before {
+    background-position: center;
+    background-color: #fdc20f;
+}
+
+.option-group-slots-spa input[type='radio']+label::before {
+    margin-right: 16px;
+    content: '';
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url(../images/icon-checked.svg);
+    background-repeat: no-repeat;
+    background-position: 0 -24px;
+    transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.option-group-slots-spa input[type='radio']+label {
+    display: flex;
+    font-family: 'Kanit';
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 16px;
+    align-items: center;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.btn-grey {
+    background: #EFF3FA;
+    border-radius: 30px;
+    height: 48px;
+    width: 100%;
+    border: solid 0px;
+    margin-bottom: 48px;
+}
+
+.btn-grey .font {
+    color: #2b4a8e;
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.btn-grey-cancel {
+    background: #ffffff;
+    border-radius: 30px;
+    height: 48px;
+    width: 100%;
+    border: solid 0px;
+    margin-bottom: 48px;
+}
+
+.btn-grey-cancel .font {
+    color: #2b4a8e;
+    font-family: Kanit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.close-spa {
+    float: right;
+    width: 24px;
+    height: 24px;
+}
+
+.close-spa-modal {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 13px;
+}
+
+
+.option-group-times-spa {
+    display: unset;
+}
+
+.option-group-times-spa input[type='checkbox'] {
+    display: none;
+}
+
+.option-group-times-spa input[type='checkbox']+label {
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.option-group-times-spa input[type='checkbox']+label::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url(../images/icon-checked.svg);
+    background-repeat: no-repeat;
+    background-position: 0 -24px;
+    transition: background-color 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.option-group-times-spa input[type='checkbox']:checked+label::before {
+    background-position: center;
+    background-color: #fdc20f;
+}
+
+
+.btn-primary.disabled,
+.btn-primary[disabled]
+{
+    background-color: #EAEAEA;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+.btn-basic.disabled,
+.btn-basic[disabled]
+ {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.slide-box {
+    display: flex;
+    -webkit-transition: height .3s ease;
+    height: 0;
+    overflow: hidden;
+}
+
+
+.wrapper {
+    position: relative;
+    padding-bottom: 12px;
+    width: 50%;
+}
+
+.select-time {
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Kanit';
+    border: none;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 12px;
+    width: 100%;
+    height: 44px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.select-time option {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Kanit';
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.wrapper:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background-image: url('../images/i-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wrapper.active:before {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+.wrapper.default:before {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transition: 0.3s;
+}
+
+.section-box {
+    padding: 16px 16px 0px 16px;
+}
+
+.box-day {
+    align-items: center;
+    width: 100%;
+    padding-bottom: 12px;
+    display: flex;
+}
+
+.box-day .text {
+    font-family: "Kanit";
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    min-width: 40px;
+    width: 40px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #eaeaea;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #1FC11F;
+}
+
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.btn-primary.disabled {
+    background-color: #EAEAEA;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+.btn-basic.disabled {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.section-box-fillter {
+    padding: 14px 16px 0px 16px;
+}
+
+.box-fillter-title {
+    align-items: center;
+    width: 100%;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-fillter-title .text {
+    font-family: "Mitr";
+    font-size: 18px;
+    font-weight: 500;
+    width: 76%;
+}
+
+.box-fillter-title .text-check_all {
+    font-family: "Kanit";
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    /* cursor: pointer; */
+}
+
+.box-fillter {
+    align-items: center;
+    width: 100%;
+    padding-bottom: 14px;
+    display: flex;
+}
+
+.box-fillter .text {
+    font-family: "Kanit";
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+}
